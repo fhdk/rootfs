@@ -49,7 +49,7 @@ jobs:
         name: install-pacman
         shell: bash
         env:
-          PACMAN_VERSION: 6.0.2
+          PACMAN_VERSION: 7.0.0
         run: |
           sudo git clone --depth 1 https://gitlab.manjaro.org/packages/core/pacman.git
           pushd pacman
